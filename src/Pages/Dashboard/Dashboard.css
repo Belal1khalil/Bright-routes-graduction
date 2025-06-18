@@ -1,0 +1,131 @@
+/* Dashboard Styles */
+.dashboard-tabs .ant-tabs-nav {
+  margin-bottom: 20px;
+}
+
+.dashboard-tabs .ant-tabs-tab {
+  padding: 12px 20px;
+  transition: all 0.3s;
+}
+
+.dashboard-tabs .ant-tabs-tab.ant-tabs-tab-active {
+  background-color: #f0f5ff;
+  border-radius: 6px;
+}
+
+.dashboard-tabs .ant-tabs-tab:hover {
+  color: #1677ff;
+}
+
+.dashboard-card {
+  transition: all 0.3s;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.dashboard-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+
+/* Progress bar animations */
+.ant-progress-bg {
+  transition: width 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Statistics card animations */
+.ant-statistic-content-value {
+  transition: all 0.5s;
+}
+
+.ant-statistic-content-value:hover {
+  transform: scale(1.05);
+}
+
+/* Card hover effects */
+.shadow-sm {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s;
+}
+
+.shadow-sm:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Dashboard specific styles */
+.dashboard-header {
+  background: linear-gradient(to right, #1677ff, #4096ff);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h1,
+.dashboard-header p {
+  color: white;
+}
+
+/* Badge animations */
+.ant-badge-count {
+  transition: all 0.3s;
+}
+
+.ant-badge:hover .ant-badge-count {
+  transform: scale(1.1);
+}
+
+/* Learning goals styling */
+.goal-item {
+  border-radius: 8px;
+  border: 1px solid #f0f0f0;
+  padding: 12px;
+  margin-bottom: 12px;
+  transition: all 0.3s;
+}
+
+.goal-item:hover {
+  background-color: #f9f9f9;
+  border-color: #d9d9d9;
+}
+
+/* Streak calendar styling */
+.streak-calendar .ant-picker-calendar-date-today {
+  border-color: #1677ff;
+}
+
+.streak-calendar .ant-badge-status-dot {
+  width: 8px;
+  height: 8px;
+}
+
+/* Dashboard card content padding */
+.ant-card-body {
+  padding: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ant-card-body {
+    padding: 16px;
+  }
+
+  .dashboard-tabs .ant-tabs-tab {
+    padding: 8px 12px;
+  }
+}
+
+/* Performance summary section */
+.performance-card {
+  background-color: #fafafa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.performance-card .ant-progress-circle {
+  transition: transform 0.3s;
+}
+
+.performance-card:hover .ant-progress-circle {
+  transform: scale(1.05);
+}
